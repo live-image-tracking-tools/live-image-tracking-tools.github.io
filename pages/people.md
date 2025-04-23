@@ -7,3 +7,5 @@ description: ""
 ---
 
 # {{ page.title }}
+
+{% include people.html %}

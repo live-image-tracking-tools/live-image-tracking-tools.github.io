@@ -1,0 +1,11 @@
+- name: Steering Council
+  members:
+  - name: Morgan Schwartz
+    affil: HHMI Janelia
+    github: msschwartz21
+  - name: Caroline Malin-Mayor
+    affil: HHMI Janelia
+    github: cmalinmayor
+- name: Repository Leaders
+- name: Developers
+- name: Community Members

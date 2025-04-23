@@ -1,0 +1,70 @@
+.instructors {
+    padding: 0 0 0 1%;
+}
+
+
+%instructor-profile {
+    display: flex;
+    align-items: center;
+    height: 210px;
+
+    img {
+        border-radius: 50%;
+        float: left;
+        object-fit: cover;
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    ul.instructor-info {
+        display: block;
+        float: left;
+        list-style-type: none;
+        padding-left: 0;
+        width: 65%;
+        width: -webkit-calc($content-width - 130px);
+        width: calc($content-width - 130px);
+        // min-width: 300px;
+
+        a {
+            color: $theme-color;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        span {
+            font-weight: 400;
+        }
+
+        li {
+            &::before {
+              content: ""; // No bullet points 
+            }
+          }
+    }
+}
+.instructor-profile-flex-col {
+    @extend %instructor-profile;
+    @media screen and (max-width: 480px) and (min-width: 0px){
+        width: 100%;
+    }
+    @media screen and (max-width: 960px) and (min-width: 480px) {
+        width: 50%;
+    }
+    @media screen and (min-width: 960px){
+        width: 33%;
+    }
+    // @media screen and (min-width: 1440px) {
+    //     width: 25%;
+    // }
+}
+.instructor-profile-two-col {
+    @extend %instructor-profile;
+    width: 50%;
+}
+.instructor-profile-three-col {
+    @extend %instructor-profile;
+    width: 33%;
+}

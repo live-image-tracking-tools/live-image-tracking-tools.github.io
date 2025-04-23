@@ -1,0 +1,29 @@
+<style>
+    h2 {
+      page-break-before: always;
+    }
+  
+    .category {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .people {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .affiliation {
+      font-style: italic;
+      font-size: 0.9em;
+    }
+
+  </style>
+  
+  <div class="instructors clearfix">
+    <!-- {% assign year = page.url | split: '/' | slice: 1, 1 | first %} -->
+    {% for group in site.data.people %}
+      {% include people-group.html %}
+    {% endfor %}
+  
+  </div>
