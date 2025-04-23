@@ -1,0 +1,24 @@
+.repo-profile {
+    img {
+        border-radius: 50%;
+        float: left;
+        object-fit: cover;
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+    }
+
+    ul.repo-info {
+        display: block;
+        float: left;
+        list-style-type: none;
+        padding-left: 0;
+        width: 65%;
+        width: -webkit-calc($content-width - 130px);
+        width: calc($content-width - 130px);
+    }
+}

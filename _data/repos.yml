@@ -1,0 +1,12 @@
+- name: Core Repositories
+  members:
+  - name: traccuracy
+    org: Janelia-Trackathon-2023
+    docs: https://traccuracy.readthedocs.io
+    logo: small-image.jpg
+    description: Utilities for computing common accuracy metrics on cell tracking solutions
+  - name: geff
+    org: funkelab
+    docs: https://funkelab.github.io/geff/
+    logo: small-image.jpg
+    description: Reference implementation of the Graph Exchange File Format

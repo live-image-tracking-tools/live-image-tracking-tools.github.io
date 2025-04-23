@@ -1,0 +1,15 @@
+<div>
+    <h2>{{ group.name }}</h2>
+    {% for repo in group.members %}
+    <div class="repo-profile">
+        <h3>{{ repo.name }}</h3>
+        <img src="{{ repo.logo | prepend: '/assets/images/' | relative_url }}"/>
+        <div class="repo-info">
+            <p>{{ repo.description }}</p>
+            <a class="btn" href="https://github.com/{{ repo.org }}/{{ repo.name }}">Github</a>
+            <a class="btn" href="https://pypi.org/project/{{ repo.name }}">PyPI</a>
+            <a class="btn" href="{{ repo.docs }}">Docs</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
