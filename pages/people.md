@@ -1,7 +1,7 @@
 ---
 title: People
 # layout: home
-# nav_order: 1
+nav_order: 1
 description: ""
 # permalink: /
 ---
