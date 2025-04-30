@@ -6,6 +6,7 @@
         <img src="{{ repo.logo | prepend: '/assets/images/' | relative_url }}"/>
         <div class="repo-info">
             <p>{{ repo.description }}</p>
+            <p><b>Lead Developer: </b>{{ repo.point-person }}</p>
             <a class="btn" href="https://github.com/{{ repo.org }}/{{ repo.name }}">Github</a>
             <a class="btn" href="https://pypi.org/project/{{ repo.name }}">PyPI</a>
             <a class="btn" href="{{ repo.docs }}">Docs</a>
