@@ -18,45 +18,40 @@ A curated list of open‑source and commercial software, libraries, datasets, an
 > **Legend**  
 > 🐍 = Python 🔬 = Fiji/ImageJ 📦 = Commercial 💻 = Web/Other
 
-## Libraries
-
-- **[btrack](https://github.com/quantumjot/btrack)** 🐍 — Bayesian multi‑object tracker for crowded scenes.
-- **[trackpy](https://github.com/soft-matter/trackpy)** 🐍 — Flexible particle tracking toolkit for 2D/3D trajectories.
-- **[Motile](https://github.com/funkelab/motile_tracker)** 🐍 — Integer‑linear‑programming library for globally optimized tracking.
-- **[LapTrack](https://github.com/yfukai/laptrack)** 🐍 — Linear‑assignment‑problem based tracker with tunable costs.
-- **[TrackAstra](https://github.com/weigertlab/trackastra)** 🐍 — Transformer‑based cell tracker for segmented masks.
-- **[DeepCell‑tracking](https://github.com/vanvalenlab/deepcell-tracking)** 🐍 — Deep learning cell tracking and lineage building.
-- **[STracking](https://github.com/sylvainprigent/napari-stracking)** 🐍🔬 — Modular tracking pipelines with napari GUI.
-- **[PyUAT](https://github.com/JuBiotech/PyUAT)** 🐍 — Uncertainty‑Aware Tracking for microbial cells.
-- **[Ultrack](https://github.com/royerlab/ultrack)** 🐍🔬 — Scalable 2D/3D tracking under segmentation uncertainty.
-
-## Applications / GUIs
-
-- **[TrackMate](https://github.com/trackmate-sc/TrackMate)** 🔬 — Everyday object tracking plugin for Fiji.
-- **[Mastodon](https://github.com/mastodon-sc)** 🔬 — Next‑generation interactive tracking for large datasets.
-- **[ilastik](https://www.ilastik.org/)** 💻 — Interactive machine‑learning workflows including tracking.
-- **[CellProfiler + Tracer](https://cellprofiler.org/tracer)** 🐍🔬 — High‑throughput analysis with trajectory QC.
-- **[Cell‑ACDC](https://github.com/SchmollerLab/Cell_ACDC)** 🐍 — Real‑time segmentation & cell cycle‑aware tracking GUI.
-- **[CellTracker](https://github.com/WangLabTHU/CellTracker)** 🐍 — End‑to‑end GUI toolbox for segmentation and tracking.
-- **[Lineage Mapper](https://github.com/usnistgov/Lineage-Mapper)** 🔬 — Overlap‑based tracker producing detailed lineages.
-- **[CellMAPtracer](https://github.com/ocbe-uio/CellMAPtracer)** 📊 — MATLAB GUI for long‑term proliferative cell tracking.
-- **[Imaris](https://imaris.oxinst.com/products/imaris-for-cell-biologists)** 📦 — Commercial 3D/4D visualization & tracking suite.
-- **[arivis Vision4D](https://www.zeiss.com/microscopy/en/products/software/arivis-pro.html)** 📦 — Scalable big‑data tracking with VR proofreading.
-- **[DeepSea](https://github.com/abzargar/DeepSea)** 🐍 — Residual U‑Net based joint segmentation & tracking.
-- **[ELEPHANT](https://github.com/elephant-track)** 🔬🐍 — Incremental deep‑learning 3D tracking on Mastodon.
-- **[LIM Tracker](https://github.com/LIMT34/LIM-Tracker)** 🔬 — Seamless auto, pattern‑matching & manual tracking plugin.
-- **[Usiigaci](https://github.com/oist/Usiigaci)** 🐍 — Mask‑R‑CNN + trackpy pipeline for label‑free tracking.
-- **[PhagoSight](https://github.com/phagosight/phagosight)** 📊 — MATLAB toolbox for immune‑cell tracking in 3D.
-- **[MetaMorph](https://imagxcell.com/metamorph/)** 📦 — Long‑standing commercial acquisition & tracking suite.
-- **[NIS‑Elements](https://www.nisoftware.net/NikonSaleApplication/Help/Docs-AR/eng_ar/tracking.advanced.html)** 📦 — Nikon software module for 2D/3D object tracking.
-- **[MoMA](https://github.com/fjug/MoMA)** 🔬 — Analyzer for mother‑machine bacterial lineage movies.
-
-## Annotators & Editors
-
-- **[DeepCell Label (Caliban)](https://github.com/vanvalenlab/deepcell-label)** 💻 — Web‑based segmentation + tracking labeler.
-- **[MTrackJ](https://imagej.net/plugins/mtrackj)** 🔬 — Manual multi‑dimensional motion tracking.
-- **[Traxtile](https://github.com/braunb/traxtile-public)** 🐍 — Interactive GUI for reviewing & fixing tracks.
-- **[CeLaVi](https://academic.oup.com/nar/article/49/W1/W80/6270768)** 💻 — Interactive web lineage tree visualizer.
+| Software                                                                                                       | Description                                                         | Language | API | GUI |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | -------- | --- | --- |
+| [**btrack**](https://github.com/quantumjot/btrack)                                                             | Bayesian multi-object tracker for crowded scenes.                   | 🐍       | ✅   | ✅ |
+| [**trackpy**](https://github.com/soft-matter/trackpy)                                                          | Flexible particle-tracking toolkit for 2D/3D trajectories.          | 🐍       | ✅   | ❌   |
+| [**Motile**](https://github.com/funkelab/motile_tracker)                                                       | Integer-linear-programming library for globally optimised tracking. | 🐍       | ✅   | ❌   |
+| [**LapTrack**](https://github.com/yfukai/laptrack)                                                             | Linear-assignment-problem tracker with tunable costs.               | 🐍       | ✅   | ✅ |
+| [**TrackAstra**](https://github.com/weigertlab/trackastra)                                                     | Transformer-based cell tracker for segmented masks.                 | 🐍       | ✅   | ✅ |
+| [**DeepCell-tracking**](https://github.com/vanvalenlab/deepcell-tracking)                                      | Deep-learning tracking and lineage construction.                    | 🐍       | ✅   | ✅   |
+| [**STracking**](https://github.com/sylvainprigent/napari-stracking)                                            | Modular tracking pipelines with napari GUI.                         | 🐍🔬     | ✅   | ✅   |
+| [**PyUAT**](https://github.com/JuBiotech/PyUAT)                                                                | Uncertainty-Aware Tracking for microbial cells.                     | 🐍       | ✅   | ❌   |
+| [**Ultrack**](https://github.com/royerlab/ultrack)                                                             | Scalable 2D/3D tracking under segmentation uncertainty.             | 🐍🔬     | ✅   | ✅   |
+| [**TrackMate**](https://github.com/trackmate-sc/TrackMate)                                                     | Everyday object-tracking plugin for Fiji.                           | 🔬       | ✅   | ✅   |
+| [**Mastodon**](https://github.com/mastodon-sc)                                                                 | Next-generation interactive tracking for large datasets.            | 🔬       | ✅   | ✅   |
+| [**ilastik**](https://www.ilastik.org/)                                                                        | Interactive machine-learning workflows (incl. tracking).            | 💻       | ✅   | ✅   |
+| [**CellProfiler + Tracer**](https://cellprofiler.org/tracer)                                                   | High-throughput analysis with trajectory QC.                        | 🐍🔬     | ✅   | ✅   |
+| [**Cell-ACDC**](https://github.com/SchmollerLab/Cell_ACDC)                                                     | Real-time segmentation & cell-cycle-aware tracking GUI.             | 🐍       | ✅   | ✅   |
+| [**CellTracker**](https://github.com/WangLabTHU/CellTracker)                                                   | End-to-end toolbox for segmentation and tracking.                   | 🐍       | ✅   | ✅   |
+| [**Lineage Mapper**](https://github.com/usnistgov/Lineage-Mapper)                                              | Overlap-based tracker producing detailed lineages.                  | 🔬       | ❌   | ✅   |
+| [**CellMAPtracer**](https://github.com/ocbe-uio/CellMAPtracer)                                                 | MATLAB GUI for long-term proliferative cell tracking.               | 📊       | ✅   | ✅   |
+| [**Imaris**](https://imaris.oxinst.com/products/imaris-for-cell-biologists)                                    | Commercial 3D/4D visualisation & tracking suite.                    | 📦       | ✅   | ✅   |
+| [**arivis Vision4D**](https://www.zeiss.com/microscopy/en/products/software/arivis-pro.html)                   | Big-data tracking with VR proofreading (commercial).                | 📦       | ✅   | ✅   |
+| [**DeepSea**](https://github.com/abzargar/DeepSea)                                                             | Residual-U-Net-based joint segmentation & tracking.                 | 🐍       | ✅   | ✅   |
+| [**ELEPHANT**](https://github.com/elephant-track)                                                              | Incremental deep-learning 3D tracking on Mastodon.                  | 🔬🐍     | ✅   | ✅   |
+| [**LIM Tracker**](https://github.com/LIMT34/LIM-Tracker)                                                       | Auto, pattern-matching & manual tracking plugin.                    | 🔬       | ❌   | ✅   |
+| [**Usiigaci**](https://github.com/oist/Usiigaci)                                                               | Mask-R-CNN + trackpy pipeline for label-free tracking.              | 🐍       | ✅   | ✅   |
+| [**PhagoSight**](https://github.com/phagosight/phagosight)                                                     | MATLAB toolbox for immune-cell tracking in 3D.                      | 📊       | ✅   | ❌   |
+| [**MetaMorph**](https://imagxcell.com/metamorph/)                                                              | Long-standing acquisition & tracking suite (commercial).            | 📦       | ✅   | ✅   |
+| [**NIS-Elements**](https://www.nisoftware.net/NikonSaleApplication/Help/Docs-AR/eng_ar/tracking.advanced.html) | Nikon module for 2D/3D object tracking.                             | 📦       | ✅   | ✅   |
+| [**MoMA**](https://github.com/fjug/MoMA)                                                                       | Mother-machine bacterial-lineage analyser.                          | 🔬       | ❌   | ✅   |
+| [**DeepCell Label (Caliban)**](https://github.com/vanvalenlab/deepcell-label)                                  | Web-based segmentation + tracking labeler.                          | 💻       | ✅   | ✅   |
+| [**MTrackJ**](https://imagej.net/plugins/mtrackj)                                                              | Manual multi-dimensional motion tracking.                           | 🔬       | ❌   | ✅   |
+| [**Traxtile**](https://github.com/braunb/traxtile-public)                                                      | Interactive GUI for reviewing & fixing tracks.                      | 🐍       | ✅   | ✅   |
+| [**CeLaVi**](https://academic.oup.com/nar/article/49/W1/W80/6270768)                                           | Interactive web lineage-tree visualiser.                            | 💻       | ❌   | ✅   |
+| [**inTRACKtive**](https://github.com/royerlab/inTRACKtive) | Browser‑based interactive exploration of large lineage data |  💻 |❌   | ✅   | 
 
 ## Benchmarks & Metrics
 
@@ -81,5 +76,5 @@ A curated list of open‑source and commercial software, libraries, datasets, an
 
 - **[GEFF](https://github.com/live-image-tracking-tools/geff)** 🐍 — Standardized graph exchange format for tracking data.
 - **[CellTracksColab](https://github.com/CellMigrationLab/CellTracksColab)** 🐍 — Colab notebooks for consolidating & analyzing tracks.
-- **[inTRACKtive](https://github.com/royerlab/inTRACKtive)** 💻 — Browser‑based interactive exploration of large lineage data.
+-  💻 — Browser‑based interactive exploration of large lineage data.
 
