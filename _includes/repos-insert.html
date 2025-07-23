@@ -7,9 +7,13 @@
         <div class="repo-info">
             <p>{{ repo.description }}</p>
             <p><b>Lead Developer: </b>{{ repo.point-person }}</p>
-            <a class="btn" href="https://github.com/{{ repo.org }}/{{ repo.name }}">Github</a>
+            <a class="btn" href="https://github.com/live-image-tracking-tools/{{ repo.name }}">Github</a>
+            {% if repo.pypi %}
             <a class="btn" href="https://pypi.org/project/{{ repo.name }}">PyPI</a>
+            {% endif %}
+            {% if repo.docs and repo.docs != '' %}
             <a class="btn" href="{{ repo.docs }}">Docs</a>
+            {% endif %}
         </div>
     </div>
     {% endfor %}
