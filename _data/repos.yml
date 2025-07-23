@@ -1,14 +1,27 @@
 - name: Core Repositories
   members:
   - name: traccuracy
-    org: live-image-tracking-tools
     docs: https://traccuracy.readthedocs.io
     logo: small-image.jpg
     description: Utilities for computing common accuracy metrics on cell tracking solutions
     point-person: Morgan Schwartz
+    pypi: true
   - name: geff
-    org: live-image-tracking-tools
     docs: https://live-image-tracking-tools.github.io/geff/
     logo: small-image.jpg
     description: Reference implementation of the Graph Exchange File Format
     point-person: Caroline Malin-Mayor
+    pypi: true
+  - name: napari-geff
+    description: A napari reader and writer for geff
+    point-person: Draga Doncila Pop
+    logo: small-image.jpg
+    pypi: true
+  - name: geff-java
+    description: A java reader and writer for geff
+    point-person: Ko Sugawara
+    logo: small-image.jpg
+  - name: geff-js-validator
+    description: A simple web application for validating and analyzing GEFF folder structures with drag-and-drop functionality
+    point-person: TBD
+    logo: small-image.jpg
