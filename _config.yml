@@ -16,7 +16,7 @@
 title: Live Image Tracking Tools
 description: The home of the LITT community
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://live-image-tracking-tools.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://liveimagetrackingtools.org/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: live-image-tracking-tools/live-image-tracking-tools.github.io # for github-metadata
 
 permalink: pretty
@@ -57,7 +57,7 @@ exclude:
   - fixtures/
 
 # Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/just-the-docs.png"
+# logo: "/assets/images/LITT_Icon_RGB.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
