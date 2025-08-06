@@ -6,7 +6,7 @@ description: ""
 permalink: /
 ---
 
-# Live Image Tracking Tools
+![](assets/images/LITT_Banner_RGB.png)
 
 ## Mission Statement
 - Develop and maintain targeted, stable, and interoperable software libraries and standards (APIs, specs) that can be used as building blocks for live image tracking tool development and research. 

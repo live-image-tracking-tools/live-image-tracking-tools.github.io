@@ -2,26 +2,26 @@
   members:
   - name: traccuracy
     docs: https://traccuracy.readthedocs.io
-    logo: small-image.jpg
+    logo: LITT_Icon_RGB.png
     description: Utilities for computing common accuracy metrics on cell tracking solutions
     point-person: Morgan Schwartz
     pypi: true
   - name: geff
     docs: https://live-image-tracking-tools.github.io/geff/
-    logo: small-image.jpg
+    logo: GEFF_Icon_RGB.png
     description: Reference implementation of the Graph Exchange File Format
     point-person: Caroline Malin-Mayor
     pypi: true
   - name: napari-geff
     description: A napari reader and writer for geff
     point-person: Draga Doncila Pop
-    logo: small-image.jpg
+    logo: LITT_Icon_RGB.png
     pypi: true
   - name: geff-java
     description: A java reader and writer for geff
     point-person: Ko Sugawara
-    logo: small-image.jpg
+    logo: LITT_Icon_RGB.png
   - name: geff-js-validator
     description: A simple web application for validating and analyzing GEFF folder structures with drag-and-drop functionality
     point-person: TBD
-    logo: small-image.jpg
+    logo: LITT_Icon_RGB.png
