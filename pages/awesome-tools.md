@@ -8,6 +8,8 @@ description: ""
 
 # {{ page.title }}
 
+{% include awesome-page.html %}
+
 {: .note-title }
 > Coming Soon!
 >

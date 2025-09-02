@@ -1,0 +1,303 @@
+  # - name:
+  #   link:
+  #   description:
+  #   language:
+  #   api:
+  #   gui:
+  #   detect:
+  #   track:
+  #   edit:
+  #   visualize:
+- name:
+  members:
+  - name: btrack
+    link: https://github.com/quantumjot/btrack
+    description: Bayesian multi-object tracker for crowded scenes
+    language: Python
+    api: true
+    gui: true
+    detect: false
+    track: true
+    edit: false
+    visualize: tbd
+  - name: trackpy
+    link: https://github.com/soft-matter/trackpy
+    description: Flexible particle-tracking toolkit for 2D/3D trajectories.
+    language: Python
+    api: true
+    gui: false 
+    # detect: tbd
+    track: true
+    # edit: tbd
+  - name: Motile
+    link: https://github.com/funkelab/motile_tracker
+    description: Integer-linear-programming library for globally optimised tracking
+    language: Python
+    api: true
+    track: true
+  - name: Motile Tracker
+    link: https://github.com/funkelab/motile_tracker
+    description: An application for interactive for tracking with motile
+    language: Python
+    gui: true
+    track: true
+    edit: true
+    visualize: true
+  - name: LapTrack
+    link: https://github.com/yfukai/laptrack
+    description: Linear-assignment-problem tracker with tunable costs
+    language: Python
+    api: true
+    gui: true
+    # detect: ?
+    track: true
+  - name: TrackAstra
+    link: https://github.com/weigertlab/trackastra
+    description: Transformer-based cell tracker for segmented masks
+    language: Python
+    api: true
+    track: true
+  - name: Caliban
+    link: https://github.com/vanvalenlab/deepcell-tracking
+    description: Deep-learning based nuclear segmentation and tracking
+    language: Python
+    api: true
+    detect: true
+    track: true
+  - name: STracking
+    link: https://github.com/sylvainprigent/napari-stracking
+    description: Modular tracking pipelines with napari
+    language: Python
+    # api: ?
+    gui: true
+    # detect: ?
+    track: true
+    # edit: ?
+  - name: PyUAT
+    link: https://github.com/JuBiotech/PyUAT
+    description: Uncertainty-Aware Tracking for microbial cells
+    language: Python
+    api: true
+    track: true
+    # detect: ?
+    # edit: ?
+  - name: Ultrack
+    link: https://github.com/royerlab/ultrack
+    description: Scalable 2D/3D tracking under segmentation uncertainty
+    language: Python
+    api: true
+    gui:
+    detect:
+    track: true
+    edit:
+    visualize:
+  - name: TrackMate
+    link: https://github.com/trackmate-sc/TrackMate
+    description: Everyday object-tracking plugin for Fiji
+    language: Java
+    api:
+    gui: true
+    detect:
+    track: true
+    edit:
+    visualize: true
+  - name: Mastadon
+    link: https://github.com/mastodon-sc
+    description: Next-generation interactive tracking for large datasets
+    language: Java
+    api:
+    gui: true
+    detect:
+    track: true
+    edit: true
+    visualize: true
+  - name: Cell-ACDC
+    link: https://github.com/SchmollerLab/Cell_ACDC
+    description: Real-time segmentation & cell-cycle-aware tracking GUI
+    language: Python
+    api: true
+    gui: true
+    detect: true
+    track: true
+    edit:
+    visualize:
+  - name: CellProfiler + Tracer
+    link: https://cellprofiler.org/tracer
+    description: High-throughput analysis with trajectory QC
+    language:
+    api: true
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: CellTracker
+    link: https://github.com/WangLabTHU/CellTracker
+    description: End-to-end toolbox for segmentation and tracking
+    language: true
+    api: true
+    gui: true
+    detect: true
+    track: true
+    edit:
+    visualize:
+  - name: Lineage Mapper
+    link: https://github.com/usnistgov/Lineage-Mapper
+    description: Overlap-based tracker producing detailed lineages
+    language: Java/Fiji
+    api: false
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: CellMAPtracer
+    link: https://github.com/ocbe-uio/CellMAPtracer
+    description: MATLAB GUI for long-term proliferative cell tracking
+    language: MATLAB
+    api: true
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: Imaris
+    link: https://imaris.oxinst.com/products/imaris-for-cell-biologists
+    description: Commercial 3D/4D visualisation & tracking suite
+    language:
+    api: true
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: arivis Vision4D
+    link: https://www.zeiss.com/microscopy/en/products/software/arivis-pro.html
+    description: Commercial big-data tracking with VR proofreading 
+    language:
+    api: true
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: DeepSea
+    link: https://github.com/abzargar/DeepSea
+    description: Residual-U-Net-based joint segmentation & tracking
+    language: python
+    api: true
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: ELEPHANT
+    link: https://github.com/elephant-track
+    description: Incremental deep-learning 3D tracking on Mastodon
+    language: Python / Fiji
+    api: true
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: LIM Tracker
+    link: https://github.com/LIMT34/LIM-Tracker
+    description: Auto, pattern-matching & manual tracking plugin
+    language: Fiji
+    api: false
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: Usiigaci
+    link: https://github.com/oist/Usiigaci
+    description: Mask-R-CNN + trackpy pipeline for label-free tracking
+    language: Python
+    api: true
+    gui: true
+    detect:
+    track:
+    edit:
+    visualize:
+  - name: PhagoSight
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
+  - name:
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
+  - name:
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
+  - name:
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
+  - name:
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
+  - name:
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
+  - name:
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
+  - name:
+    link:
+    description:
+    language:
+    api:
+    gui:
+    detect:
+    track:
+    edit:
+    visualize:
