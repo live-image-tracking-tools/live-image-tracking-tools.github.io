@@ -1,0 +1,56 @@
+<p>
+    <b>Legend</b>
+    <ul>
+        <li>Interface: API <i class="fa-solid fa-keyboard"></i>, GUI <i class="fa-solid fa-desktop"></i></li>
+        <li>Task: Detect <i class="fa-solid fa-location-dot"></i>, Track <i class="fa-solid fa-shuffle"></i>, Edit <i class="fa-solid fa-pen"></i>, Visualize <i class="fa-solid fa-magnifying-glass"></i></li>
+    </ul>
+</p>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Language</th>
+        <th>Interface</th>
+        <th>Task</th>
+    </tr>
+  {% for tool in group.members %}
+    <tr>
+        <td><a href="{{ tool.link }}">{{ tool.name }}</a></td>
+        <td>{{ tool.description }}</td>
+        <td>{{ tool.language }}</td>
+        <td>
+            {% if tool.api %}
+            <i class="fa-solid fa-keyboard"></i>
+            {% endif %}
+            {% if tool.gui %}
+            <i class="fa-solid fa-desktop"></i>
+            {% endif %}
+        </td>
+        <td>
+            {% if tool.detect %}
+            <i class="fa-solid fa-location-dot"></i>
+            {% endif %}
+            {% if tool.track %}
+            <i class="fa-solid fa-shuffle"></i>
+            {% endif %}
+            {% if tool.edit %}
+            <i class="fa-solid fa-pen"></i>
+            {% endif %}
+            {% if tool.visualize %}
+            <i class="fa-solid fa-magnifying-glass"></i>
+            {% endif %}
+        </td>
+    </tr>
+  {% endfor %}
+</table>
+
+<!-- - name:
+  link:
+  description:
+  language:
+  api:
+  gui:
+  detect:
+  track:
+  edit: -->

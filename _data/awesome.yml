@@ -1,0 +1,116 @@
+  # - name:
+  #   link:
+  #   description:
+  #   language:
+  #   api:
+  #   gui:
+  #   detect:
+  #   track:
+  #   edit:
+  #   visualize:
+- name:
+  members:
+  - name: btrack
+    link: https://github.com/quantumjot/btrack
+    description: Bayesian multi-object tracker for crowded scenes
+    language: Python
+    api: true
+    gui: true
+    detect: false
+    track: true
+    edit: false
+    visualize: tbd
+  - name: Motile
+    link: https://github.com/funkelab/motile
+    description: Integer-linear-programming library for globally optimised tracking
+    language: Python
+    api: true
+    track: true
+  - name: Motile Tracker
+    link: https://github.com/funkelab/motile_tracker
+    description: An application for interactive for tracking with motile
+    language: Python
+    gui: true
+    track: true
+    edit: true
+    visualize: true
+  - name: LapTrack
+    link: https://github.com/yfukai/laptrack
+    description: Linear-assignment-problem tracker with tunable costs
+    language: Python
+    api: true
+    gui: true
+    # detect: ?
+    track: true
+  - name: TrackAstra
+    link: https://github.com/weigertlab/trackastra
+    description: Transformer-based cell tracker for segmented masks
+    language: Python
+    api: true
+    track: true
+  - name: Caliban
+    link: https://github.com/vanvalenlab/deepcell-tracking
+    description: Deep-learning based nuclear segmentation and tracking
+    language: Python
+    api: true
+    detect: true
+    track: true
+  - name: Ultrack
+    link: https://github.com/royerlab/ultrack
+    description: Scalable 2D/3D tracking under segmentation uncertainty
+    language: Python
+    api: true
+    gui:
+    detect:
+    track: true
+    edit:
+    visualize:
+  - name: TrackMate
+    link: https://github.com/trackmate-sc/TrackMate
+    description: Everyday object-tracking plugin for Fiji
+    language: Java
+    api:
+    gui: true
+    detect:
+    track: true
+    edit:
+    visualize: true
+  - name: Mastadon
+    link: https://github.com/mastodon-sc
+    description: Next-generation interactive tracking for large datasets
+    language: Java
+    api:
+    gui: true
+    detect:
+    track: true
+    edit: true
+    visualize: true
+  - name: ELEPHANT
+    link: https://github.com/elephant-track
+    description: Incremental deep-learning 3D tracking on Mastodon
+    language: Python / Fiji
+    api: true
+    gui: true
+    detect: true
+    track: true
+    edit: true
+    visualize: true
+  - name: inTRACKtive
+    link: https://github.com/royerlab/inTRACKtive
+    description: Interactive web lineage-tree visualiser.
+    language: Python
+    gui: true
+    visualize: true
+  - name: track_gardener
+    link: https://github.com/fjorka/track_gardener
+    description: Napari plugin with tools for manual correction of tracking data.
+    language: Python
+    gui: true
+    edit: true
+    visualize: true
+  - name: divisualization
+    link: https://github.com/bentaculum/divisualisation
+    description: Visualize cell tracking edge errors computed via traccuracy in napari.
+    language: Python
+    gui: true
+    visualize: true
