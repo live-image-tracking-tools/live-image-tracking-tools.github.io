@@ -10,5 +10,33 @@
     affil: University of Monash
     github: DragaDoncila
 - name: Repository Leaders
+  members:
+  - name: Teun Huijben
+    affil: Biohub
+    github: TeunHuijben
+  - name: Ko Sugawara
+    affil: Riken BDR
+    github: ksugar
 - name: Developers
+  members:
+  - name: Anniek Stokkermans
+    affil: Hubrecht Institute
+    github: AnniekStok
+  - name: Laura Xénard
+    github: lxenard
+    affil: Institut Pasteur
+  - name: Benjamin Gallusser
+    affil: Biohub
+    github: bentaculum
+  - name: Talley Lambert
+    affil: Human Technopole
+    github: tlambert03
+  - name: Tobias Pietzsch
+    github: tpietzsch
+  - name: Jean-Yves Tinevez
+    github: tinevez
+    affil: Institut Pasteur
+  - name: Jordão Bragantini
+    github: JoOkuma
+    affil: Biohub
 - name: Community Members
