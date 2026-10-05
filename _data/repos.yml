@@ -12,6 +12,12 @@
     description: Reference implementation of the Graph Exchange File Format
     point-person: Caroline Malin-Mayor
     pypi: true
+  - name: Napari Track Edit
+    description: A napari plugin for interactive visualization, navigation, and editing of object tracking results
+    point-person: Teun Huijben
+    logo: https://github.com/live-image-tracking-tools/napari-track-edit/blob/main/docs/source/images/logo_transparent.png?raw=true
+    pypi: true
+    docs: https://liveimagetrackingtools.org/napari-track-edit/#
   - name: napari-geff
     description: A napari reader and writer for geff
     point-person: Draga Doncila Pop
